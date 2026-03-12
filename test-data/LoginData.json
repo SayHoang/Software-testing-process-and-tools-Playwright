@@ -1,0 +1,32 @@
+[
+  {
+    "username": "Admin",
+    "password": "admin123",
+    "expectedResult": "Login Success",
+    "testCaseID": "TC_L_001"
+  },
+  {
+    "username": "Admin",
+    "password": "wrongpass",
+    "expectedResult": "Invalid credentials",
+    "testCaseID": "TC_L_002"
+  },
+  {
+    "username": "notexistuser",
+    "password": "admin123",
+    "expectedResult": "Invalid credentials",
+    "testCaseID": "TC_L_003"
+  },
+  {
+    "username": "",
+    "password": "admin123",
+    "expectedResult": "Username cannot be empty",
+    "testCaseID": "TC_L_004"
+  },
+  {
+    "username": "Admin",
+    "password": "",
+    "expectedResult": "Password cannot be empty",
+    "testCaseID": "TC_L_005"
+  }
+]

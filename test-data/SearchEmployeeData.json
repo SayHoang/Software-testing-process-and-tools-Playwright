@@ -1,0 +1,26 @@
+[
+  {
+    "keyword": "John",
+    "expectedName": "John Smith",
+    "shouldFound": true,
+    "testCaseID": "TC_SE_001"
+  },
+  {
+    "keyword": "Lisa",
+    "expectedName": "Lisa Andrews",
+    "shouldFound": true,
+    "testCaseID": "TC_SE_002"
+  },
+  {
+    "keyword": "zznoexist",
+    "expectedName": "",
+    "shouldFound": false,
+    "testCaseID": "TC_SE_003"
+  },
+  {
+    "keyword": "Peter",
+    "expectedName": "Peter Mac",
+    "shouldFound": true,
+    "testCaseID": "TC_SE_004"
+  }
+]
