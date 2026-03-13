@@ -1,0 +1,65 @@
+[
+  {
+    "testCaseID": "AE_TC_001",
+    "description": "Điền đầy đủ tất cả các trường dữ liệu hợp lệ.",
+    "firstName": "Nguyena",
+    "middleName": "Van",
+    "lastName": "An",
+    "employeeID": "582910",
+    "expectedResult": "pass"
+  },
+  {
+    "testCaseID": "AE_TC_002",
+    "description": "Bỏ trống trường không bắt buộc (middleName).",
+    "firstName": "Trana",
+    "middleName": "",
+    "lastName": "Binh",
+    "employeeID": "110432",
+    "expectedResult": "pass"
+  },
+  {
+    "testCaseID": "AE_TC_003",
+    "description": "Kiểm tra khi để trống trường bắt buộc firstName.",
+    "firstName": "",
+    "middleName": "Vana",
+    "lastName": "Cuong",
+    "employeeID": "992104",
+    "expectedResult": "Required"
+  },
+  {
+    "testCaseID": "AE_TC_004",
+    "description": "Kiểm tra khi để trống trường bắt buộc lastName.",
+    "firstName": "Lea",
+    "middleName": "Duy",
+    "lastName": "",
+    "employeeID": "334051",
+    "expectedResult": "Required"
+  },
+  {
+    "testCaseID": "AE_TC_005",
+    "description": "Kiểm tra khi tất cả các trường tên bắt buộc đều để trống.",
+    "firstName": "",
+    "middleName": "",
+    "lastName": "",
+    "employeeID": "772183",
+    "expectedResult": "Required"
+  },
+  {
+    "testCaseID": "AE_TC_006",
+    "description": "employeeID trùng.",
+    "firstName": "Hoanga",
+    "middleName": "Anh",
+    "lastName": "Dung",
+    "employeeID": "582910",
+    "expectedResult": "Employee Exists"
+  },
+  {
+    "testCaseID": "AE_TC_007",
+    "description": "Kiểm tra khả năng nhập ký tự đặc biệt trong các trường tên.",
+    "firstName": "Jane!",
+    "middleName": " ",
+    "lastName": "Doe@",
+    "employeeID": "445921",
+    "expectedResult": "Error"
+  }
+]
